@@ -16,7 +16,7 @@ const WeatherData = ({data: {temperature, weatherState, humidity, wind}}) =>(
 );
 //validate the parameter
 WeatherData.propTypes = {
-    //let's wait for an obj with a certain way
+    //let's wait for an obj with a certain way.
     data: PropTypes.shape({
         temperature: PropTypes.number.isRequired,
         weatherState: PropTypes.string.isRequired,
